@@ -1,0 +1,26 @@
+result=0 
+a=int(input("enter the first number: 
+")) 
+b=int(input("enter the second number: 
+")) 
+op=input("enter the operator +,
+,*,/,%\n") 
+if op=="+": 
+    result=a+b 
+    print(result) 
+elif op=="-": 
+    result=a-b 
+    print(result) 
+elif op=="*": 
+    result=a*b 
+    print(result) 
+elif op=="/": 
+    result=a/b 
+    print(result) 
+elif op=="%": 
+    result=a%b 
+    print(result) 
+else: 
+    print("invalid operator") 
+ 
+ 
